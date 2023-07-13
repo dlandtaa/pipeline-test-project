@@ -9,6 +9,11 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+pool:
+  name: Default
+  demands:
+   - agent.name -equals BoboCop
+
 steps:
 - task: NodeTool@0
   inputs:
