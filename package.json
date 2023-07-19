@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo no tests",
-    "build": "cp index.js index2.js"
+    "build": "cp index.js index2.js",
+    "start": "node index2.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/dlandtaa/pipeline-test-project#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "moment": "^2.29.4"
   }
 }
